@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto Tecnológico de Mérida</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://code.jquery.com/jquery-4.0.0.js"></script>
+</head>
+<body>
+
+    <div class="barra_superior">
+        <div class="ancho">
+            <div class="logo_top">
+                <img src="imagenes/logotransparente.png" alt="Logo ITM" width="130">
+            </div>
+            <div class="formulario_top">
+                <form action="">
+                    <div class="campo_top">
+                        <label>* Nombre:</label>
+                        <input type="text" id="nombre">
+                    </div>
+                    <div class="campo_top">
+                        <label>* Email:</label>
+                        <input type="text" id="correo">
+                    </div>
+                    <div class="campo_top">
+                        <label>Sexo:</label>
+                        <input type="radio" name="sexo" value="M"> M
+                        <input type="radio" name="sexo" value="H"> H
+                    </div>
+                    <div class="campo_top">
+                        <label>Fecha de nacimiento:</label>
+                        <select id="dia">
+                            <option value="">dia</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                        <select id="mes">
+                            <option value="">mes</option>
+                            <option value="1">enero</option>
+                            <option value="2">febrero</option>
+                        </select>
+                        <select id="anio">
+                            <option value="">año</option>
+                            <option value="2000">2000</option>
+                            <option value="2001">2001</option>
+                        </select>
+                    </div>
+                    <div class="campo_top">
+                        <button type="button" id="btn_enviar">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu_principal">
+        <div class="ancho">
+            <a href="#">Inicio</a>
+            <a href="#">Requisitos</a>
+            <a href="#">Materias</a>
+            <a href="#">Organigrama</a>
+            <a href="#">Instalaciones</a>
+            <a href="#">Inscripciones</a>
+            <a href="#">Contacto</a>
+        </div>
+    </div>
+
+    <div class="slider_principal">
+        <img src="imagenes/fotoslide.jpg" alt="Sistemas Computacionales">
+    </div>
+
+    <div class="seccion_tres_columnas ancho">
+        <div class="columna_tercio">
+            <div class="titulo_columna">
+                <img src="imagenes/engrane.png" alt="Engrane" width="30">
+                <h2>UNIVERSIDAD DE PRESTIGIO</h2>
+            </div>
+            <img src="imagenes/foto1.jpg" alt="Tecnológico de Mérida">
+            <p>Puede que después de tu carrera quieras estudiar una maestría o un doctorado que te permita especializarte. Hay oportunidades muy interesantes para estudiar con buenas becas en el extranjero.</p>
+        </div>
+        <div class="columna_tercio">
+            <div class="titulo_columna">
+                <img src="imagenes/engrane.png" alt="Engrane" width="30">
+                <h2>DOCENTES</h2>
+            </div>
+            <img src="imagenes/foto2.jpg" alt="Docentes y alumnos">
+            <p>Phasellus facilisis, nunc in lacinia auctor, eros lacus aliquet velit, quis lobortis risus nunc nisi. Maecenas et turpis vitae velit volutpat porttitor a sit amet est. Uthasellus facilisis, nunc in lacinia auctor, eros lacus aliquet velit, quis lobortis risus nunc nec nisi.</p>
+        </div>
+        <div class="columna_tercio">
+            <div class="titulo_columna">
+                <img src="imagenes/engrane.png" alt="Engrane" width="30">
+                <h2>INSTALACIONES</h2>
+            </div>
+            <img src="imagenes/instalaciones1.jpg" alt="Instalaciones">
+        </div>
+    </div>
+
+    <div class="seccion_inferior ancho">
+        <div class="columna_egresado">
+            <h2>Perfil del Egresado</h2>
+            <ul>
+                <li>Desarrollar, implementar y administrar software de sistemas o de aplicación que cumpla con los estándares de calidad con el fin de apoyar la productividad y competitividad de las organizaciones.</li>
+                <li>Seleccionar y aplicar herramientas matemáticas para el modelado, diseño y desarrollo de tecnología computacional.</li>
+                <li>Integrar diversas soluciones computacionales que requieran el uso de las diferentes tecnologías, plataformas o dispositivos.</li>
+                <li>Diseñar, desarrollar y administrar bases de datos conforme a requerimientos definidos, normas organizacionales de manejo y seguridad de la información, utilizando tecnologías emergentes.</li>
+            </ul>
+        </div>
+        <div class="columna_trabajo">
+            <div class="caja_trabajo">
+                <h2>CAMPO DE TRABAJO</h2>
+                <p>Empresas y organismos en todos los campos de la actividad económica, gubernamental y de educación, en donde se puedan optimizar los procesos al automatizar el manejo de la información de las empresas.</p>
+                <div class="boton_ver_mas">
+                    <a href="#">ver mas</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pie_pagina">
+        <div class="ancho">
+            <div class="columna_pie info_pie">
+                <h3>INSTITUTO TECNOLÓGICO DE MÉRIDA</h3>
+                <p>Av. Tecnológico km. 4.5 S/N C.P. 97118</p>
+                <br>
+                <p>Preguntas y comentarios:<br>www.itmerida.mx</p>
+                <br>
+                <p>Tel:(999) 964-5000, 964-5001</p>
+            </div>
+            <div class="columna_pie mapa_pie">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.4996692066243!2d-89.62217923992952!3d21.012683917607532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5676a65077d641%3A0x39dfe74777312656!2sTecNM%20-%20Campus%20M%C3%A9rida!5e0!3m2!1ses-419!2smx!4v1794432584378!5m2!1ses-419!2smx" width="100%" height="180" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+            <div class="columna_pie creditos_pie">
+                <img src="imagenes/logotransparente.png" alt="Logo" width="100">
+                <p>Aarón Antonio Escalante Ramirez</p>
+                <p>7SB</p>
+                <p>Programación Web</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $("#btn_enviar").click(function() {
+            if ($("#nombre").val().trim() == '') {
+                alert("Escribe tu nombre");
+                $("#nombre").focus();
+                return false;
+            }
+            
+            if ($("#correo").val().trim() == '') {
+                alert("Escribe tu correo electronico");
+                $("#correo").focus();
+                return false;
+            }
+            
+            let expresionCorreo = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!expresionCorreo.test($("#correo").val().trim())) {
+                alert("Escribe un correo válido");
+                $("#correo").focus();
+                return false;
+            }
+            
+            alert("Información validada correctamente.");
+        });
+    </script>
+</body>
+</html>
