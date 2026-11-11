@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+.ancho {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.barra_superior {
+    padding: 10px 0;
+    background-color: #ffffff;
+}
+
+.logo_top {
+    display: inline-block;
+    width: 15%;
+    vertical-align: middle;
+}
+
+.formulario_top {
+    display: inline-block;
+    width: 83%;
+    vertical-align: middle;
+    text-align: right;
+    font-size: 13px;
+}
+
+.campo_top {
+    display: inline-block;
+    margin-left: 8px;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.campo_top label {
+    color: #5d0201;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.campo_top input[type="text"] {
+    width: 120px;
+}
+
+#btn_enviar {
+    background-color: #cc9900;
+    color: white;
+    border: none;
+    padding: 4px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.menu_principal {
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.menu_principal a {
+    display: inline-block;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+}
+
+.menu_principal a:hover {
+    background-color: #5d0201;
+    color: white;
+}
+
+.menu_principal a:first-child {
+    background-color: #5d0201;
+    color: white;
+}
+
+.slider_principal {
+    margin-bottom: 40px;
+}
+
+.slider_principal img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.seccion_tres_columnas {
+    margin-bottom: 50px;
+}
+
+.columna_tercio {
+    display: inline-block;
+    width: 31%;
+    margin-right: 2%;
+    vertical-align: top;
+}
+
+.columna_tercio:last-child {
+    margin-right: 0;
+}
+
+.columna_tercio img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.titulo_columna {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.titulo_columna img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: auto;
+}
+
+.titulo_columna h2 {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    color: #5d0201;
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+.columna_tercio p {
+    margin-top: 15px;
+    font-size: 13px;
+    color: #555;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.seccion_inferior {
+    margin-bottom: 50px;
+}
+
+.columna_egresado {
+    display: inline-block;
+    width: 65%;
+    margin-right: 3%;
+    vertical-align: top;
+}
+
+.columna_egresado h2 {
+    font-size: 26px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.columna_egresado ul {
+    list-style: none;
+}
+
+.columna_egresado ul li {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #444;
+    line-height: 1.5;
+    padding-left: 25px;
+    background-image: url('imagenes/vineta1.jpg');
+    background-repeat: no-repeat;
+    background-position: left 4px;
+    text-align: justify;
+}
+
+.columna_trabajo {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+.caja_trabajo {
+    background-color: #5d0201;
+    color: white;
+    padding: 30px 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.caja_trabajo h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: normal;
+    color: #cc9900;
+}
+
+.caja_trabajo p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.boton_ver_mas a {
+    background-color: #cc9900;
+    color: white;
+    text-decoration: none;
+    padding: 8px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.pie_pagina {
+    background-color: #101518;
+    color: white;
+    padding: 40px 0;
+}
+
+.columna_pie {
+    display: inline-block;
+    width: 31%;
+    margin-right: 2%;
+    vertical-align: middle;
+}
+
+.columna_pie:last-child {
+    margin-right: 0;
+}
+
+.info_pie h3 {
+    font-size: 15px;
+    color: #cc9900;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.info_pie p {
+    font-size: 13px;
+}
+
+.creditos_pie {
+    text-align: center;
+}
+
+.creditos_pie img {
+    margin-bottom: 10px;
+}
+
+.creditos_pie p {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
